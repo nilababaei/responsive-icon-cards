@@ -54,10 +54,66 @@ ul {
 
   h2 {
     margin-bottom: 0;
+    margin-top: .5em;
   }
 
   p {
     margin-top: 0;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .card-img {
+    float: none;
+    display: block;
+    width: 100%;
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  .card-body {
+    width: 30%;
+  }
+
+/*// find out how to make it inline starting at 38em//*/
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .card-body {
+    width: 31%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .card-body {
+    width: 31%;
+  }
+
+  .card-img {
+    float: left;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    margin-left: .5em;
   }
 
 }
