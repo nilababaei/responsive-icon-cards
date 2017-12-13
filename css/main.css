@@ -92,7 +92,7 @@ ul {
 
   .cards {
     display: inline-block;
-    width: 30%;
+    width: 32.7%;
   }
 
   p {
@@ -106,6 +106,8 @@ ul {
   .content {
     margin-top: 0;
     display: block;
+    margin-left: 0;
+    margin-right: .9em;
   }
 
   .img {
@@ -134,7 +136,7 @@ ul {
   }
 
   .cards {
-    width: 32%;
+    width: 33%;
   }
 
   .card-img {
