@@ -78,11 +78,10 @@ ul {
     margin: 0 auto;
   }
 
-  .card-body {
-    width: 30%;
+  .card {
+    display: inline-block;
+    width: 30%
   }
-
-/*// find out how to make it inline starting at 38em//*/
 
 }
 
@@ -93,8 +92,8 @@ ul {
     line-height: 1.5;
   }
 
-  .card-body {
-    width: 31%;
+  .card {
+    width: 32%;
   }
 
 }
@@ -105,13 +104,13 @@ ul {
     font-size: 130%;
   }
 
-  .card-body {
-    width: 31%;
+  .card{
+    width: 32%;
   }
 
   .card-img {
     float: left;
-    margin-top: 1.5rem;
+    margin-top: 2.2rem;
     margin-right: 1rem;
     margin-left: .5em;
   }
